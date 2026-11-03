@@ -98,7 +98,7 @@ The learning rate was set for each model on its own, since a value that works fo
 
 All runs used a Tesla T4 GPU. Perplexity is `exp(val loss)`. Roughly, it is the number of characters the model is choosing between at each step. Before training, every model starts near ln(91) ≈ 4.51, which is a uniform guess.
 
-![Loss curves](results/loss_curves.png)
+![Loss curves](loss_curves.png)
 
 ### Text quality
 
